@@ -12,7 +12,7 @@ sudo apt-get --force-yes -y install libzmq3-dev
 sudo apt-get --force-yes -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 sudo apt-get --force-yes -y install libqrencode-dev
 sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
-git clone http://github.com/vdovychenko99/charity
+git clone https://github.com/vdovychenko99/charity
 cd charity
 cd depends
 make download
