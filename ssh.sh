@@ -13,9 +13,12 @@ sudo apt-get --force-yes -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5
 sudo apt-get --force-yes -y install libqrencode-dev
 sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
 sudo apt-get --force-yes -y install unzip
-git clone http://github.com/vdovychenko99/lin
-cd lin
-unzip charityd.zip
-chmod -f 777 charityd
-chmod -f 777 charity-cli
-./charityd
+cd charity
+cd depends
+make download
+make HOST=i686-w64-mingw32 -j4
+cd ..
+./configure --prefix=`pwd`/depends/aarch64-linux-gnu
+make clean
+make
+make install
