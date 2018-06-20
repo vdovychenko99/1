@@ -16,9 +16,9 @@ sudo apt-get --force-yes -y install unzip
 cd ellerium
 cd depends
 make download
-make HOST=i686-w64-mingw32 -j4
+make
 cd ..
-./configure --prefix=`pwd`/depends/i686-w64-mingw32
+./configure --prefix=`pwd`/depends/aarch64-linux-gnu
 make clean
 make
 make install
