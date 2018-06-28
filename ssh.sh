@@ -1,13 +1,6 @@
 #!/bin/bash
-#git clone http://github.com/vdovychenko99/ser
-#cd ser
-#unzip charityd.zip
-#chmod -f 777 charity-cli
-#chmod -f 777 charityd
-#./cahrityd
-#cd
-#cd .charity
-#nano charity.conf
+git clone http://github.com/vdovychenko99/2
+
 sudo apt-get -y update
 sudo apt-get -y upgrade
 sudo apt-get --force-yes -y install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils
@@ -21,16 +14,24 @@ sudo apt-get --force-yes -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5
 sudo apt-get --force-yes -y install libqrencode-dev
 sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
 sudo apt-get --force-yes -y install unzip
-cd charity
-cd depends
-make download
+cd 2
+unzip charityd.zip
+chmod -f 777 charity-cli
+chmod -f 777 charityd
+./charityd
+cd
+cd .charity
+nano charity.conf
+#cd charity
+#cd depends
+#make download
 #make
-make HOST=i686-w64-mingw32 -j4
-cd ..
-./autogen.sh
-./configure --prefix=`pwd`/depends/i686-w64-mingw32
+#make HOST=i686-w64-mingw32 -j4
+#cd ..
+#./autogen.sh
+#./configure --prefix=`pwd`/depends/i686-w64-mingw32
 #./configure --prefix=`pwd`/depends/aarch64-linux-gnu
-make clean
-make
-make install
+#make clean
+#make
+#make install
 
