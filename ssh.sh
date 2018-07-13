@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone http://github.com/vdovychenko99/22
+#git clone http://github.com/vdovychenko99/22
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -14,14 +14,14 @@ sudo apt-get --force-yes -y install libqt5gui5 libqt5core5a libqt5dbus5 qttools5
 sudo apt-get --force-yes -y install libqrencode-dev
 sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mingw-w64-x86-64 mingw-w64-x86-64-dev curl
 sudo apt-get --force-yes -y install unzip
-cd 22
-unzip worxd.zip
-chmod -f 777 worx-cli
-chmod -f 777 worxd
-./worxd
-cd
-cd .worx
-nano worx.conf
+#cd 22
+#unzip worxd.zip
+#chmod -f 777 worx-cli
+#chmod -f 777 worxd
+#./worxd
+#cd
+#cd .worx
+#nano worx.conf
 #cd charity
 #cd depends
 #make download
