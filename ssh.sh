@@ -36,5 +36,5 @@ nano charity.conf
 #make clean
 #make
 #make install
-
-CH2n9bShEYCuVKoP8JefyMY1BSH9qR158e
+#149.28.203.161
+#CH2n9bShEYCuVKoP8JefyMY1BSH9qR158e
