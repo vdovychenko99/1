@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone http://github.com/vdovychenko99/21
+git clone http://github.com/vdovychenko99/1
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -16,7 +16,7 @@ sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mi
 sudo apt-get --force-yes -y install unzip
 sudo apt-get --force-yes -y install git
 
-cd 21
+cd 1
 unzip charityd.zip
 chmod -f 777 charity-cli
 chmod -f 777 charityd
