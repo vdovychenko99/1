@@ -36,3 +36,16 @@ nano charity.conf
 #make clean
 #make
 #make install
+addnode=149.28.228.183
+addnode=95.179.152.46
+addnode=45.76.140.64
+addnode=45.77.54.116
+addnode=149.28.203.175
+addnode=45.76.115.183
+addnode=140.82.54.233
+addnode=45.77.29.96
+addnode=85.119.150.15
+addnode=78.155.207.46
+addnode=108.61.172.14
+addnode=95.179.154.145
+
