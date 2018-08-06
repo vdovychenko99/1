@@ -20,6 +20,8 @@ cd linux
 unzip nex.zip
 chmod -f 777 nexd
 chmod -f 777 nex-cli
+./nexd
+nano /root/.nex/nex.conf
 #cd 21
 #unzip charityd.zip
 #chmod -f 777 charity-cli
