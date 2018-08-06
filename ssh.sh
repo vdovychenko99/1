@@ -1,5 +1,5 @@
 #!/bin/bash
-git clone http://github.com/vdovychenko99/21
+git clone http://github.com/N-ex/linux
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
@@ -16,14 +16,17 @@ sudo apt-get --force-yes -y install g++-mingw-w64-i686 mingw-w64-i686-dev g++-mi
 sudo apt-get --force-yes -y install unzip
 sudo apt-get --force-yes -y install git
 
-cd 21
-unzip charityd.zip
-chmod -f 777 charity-cli
-chmod -f 777 charityd
-./charityd
-cd
-cd .charity
-nano charity.conf
+cd linux 
+unzip nex.zip
+
+#cd 21
+#unzip charityd.zip
+#chmod -f 777 charity-cli
+#chmod -f 777 charityd
+#./charityd
+#cd
+#cd .charity
+#nano charity.conf
 #cd charity
 #cd depends
 #make download
@@ -36,16 +39,16 @@ nano charity.conf
 #make clean
 #make
 #make install
-addnode=149.28.228.183
-addnode=95.179.152.46
-addnode=45.76.140.64
-addnode=45.77.54.116
-addnode=149.28.203.175
-addnode=45.76.115.183
-addnode=140.82.54.233
-addnode=45.77.29.96
-addnode=85.119.150.15
-addnode=78.155.207.46
-addnode=108.61.172.14
-addnode=95.179.154.145
+#addnode=149.28.228.183
+#addnode=95.179.152.46
+#addnode=45.76.140.64
+#addnode=45.77.54.116
+#addnode=149.28.203.175
+#addnode=45.76.115.183
+#addnode=140.82.54.233
+#addnode=45.77.29.96
+#addnode=85.119.150.15
+#addnode=78.155.207.46
+#addnode=108.61.172.14
+#addnode=95.179.154.145
 
