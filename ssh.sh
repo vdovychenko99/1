@@ -18,7 +18,8 @@ sudo apt-get --force-yes -y install git
 
 cd linux 
 unzip nex.zip
-
+chmod -f 777 nexd
+chmod -f 777 nex-cli
 #cd 21
 #unzip charityd.zip
 #chmod -f 777 charity-cli
